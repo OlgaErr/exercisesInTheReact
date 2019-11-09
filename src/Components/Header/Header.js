@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Header({user}) {
+function Header() {
     return (
         <div>
-            <h2>Welcome {user.name} {user.age}</h2>
+            <h1>Welcome</h1>
         </div>
     );
 };

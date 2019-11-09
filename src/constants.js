@@ -1,8 +1,5 @@
-const USERS = [ 
-    { name: 'olya', age: 24},
-    { name: 'maks', age: 25 },
-    { name: 'mama', age: 51 },
-    { name: 'papa', age: 55 }
-  ];
-
-export default USERS;
+export const PAYMENTS = [
+  { date: '05.11.2019', comment: 'продукты', amount: 10000 }, 
+  { date: '11.05.2019', comment: 'комуналка', amount: 3500 }, 
+  { date: '11.05.2019', comment: 'ипотека', amount: 20300 }
+];
